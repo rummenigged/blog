@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import blog.com.br.blog.Model.Article;
@@ -32,12 +31,8 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.ViewHold
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        holder.title.setTextColor(Color.BLACK);
-        holder.body.setTextColor(Color.BLACK);
-
         holder.title.setText(articles.get(position).getTitle());
         holder.body.setText(articles.get(position).getBody());
-        Log.e("MARK", "Passei aki");
     }
 
 

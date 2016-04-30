@@ -7,5 +7,5 @@
     <color name="colorTextPrimary">#212121</color>
     <color name="colorTextSecondary">#727272</color>
     <color name="lightGrey">#bdbdbd</color>
-    <color name="deepOrange">#FF5722</color>
+    <color name="deepOrange">#FF5722    </color>
 </resources>

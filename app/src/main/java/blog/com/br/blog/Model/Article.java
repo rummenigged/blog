@@ -1,8 +1,6 @@
 package blog.com.br.blog.Model;
 
-/**
- * Created by LGPC on 27/04/2016.
- */
+
 public class Article {
     private int id;
     private String title;
@@ -14,7 +12,7 @@ public class Article {
         this.body = body;
     }
 
-    public Article(){
+    public Article() {
 
     }
 
